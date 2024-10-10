@@ -38,8 +38,8 @@ const Footer = () => {
                 {/* Useful Link  */}
                 <div className='mt-10 xl:mt-[60px] '>
                 <p className='text-[#E8CF36] mb-6 text-[11px] lg:text-[21px]'>Useful Links</p>
-                {UsefulLinks.map((items , link)=>(
-                 <div className=''>
+                {UsefulLinks.map((items,link )=>(
+                 <div key={link}>
                     
                     <div><p className='text-[#bbbbbb] text-[10px]  lg:text-[19px] mt-2 hover:text-[white]'>{items.name}</p></div>
                  </div>
@@ -52,7 +52,7 @@ const Footer = () => {
                  <div className='mt-10 xl:mt-[58px]  '>
                 <p className='text-[#E8CF36] mb-6 text-[11px] lg:text-[21px]'>Information</p>
                 {Information.map((items , link)=>(
-                 <div className=''>
+                 <div key={link}>
                     
                     <div><p className='text-[#bbbbbb] text-[10px] lg:text-[19px] mt-2 hover:text-[white]'>{items.name}</p></div>
                  </div>

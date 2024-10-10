@@ -26,7 +26,7 @@ const Gift = () => {
             <p className='mt-10 text-[24px] text-[#F4F4F4] underline  decoration-[#E8CF36] underline-offset-[15px] hover:text-[#E8CF36] cursor-pointer '>OUR STORE</p>
 
              {/* other text  */}
-            <p className='w-[80%] mt-10 text-[#bbbbbb]'>Discover timeless pieces designed to celebrate your unique style, from stunning bracelets to delicate necklaces. Whether you're shopping for a special occasion or adding a touch of luxury to your everyday look, we offer a collection that captures beauty, tradition, and modern flair. Let your sparkle shine with our exquisite jewelry!</p>
+            <p className='w-[80%] mt-10 text-[#bbbbbb]'>Discover timeless pieces designed to celebrate your unique style, from stunning bracelets to delicate necklaces. Whether you are shopping for a special occasion or adding a touch of luxury to your everyday look, we offer a collection that captures beauty, tradition, and modern flair. Let your sparkle shine with our exquisite jewelry!</p>
 
              {/* Find more button  */}
             <button className='px-12 py-[7px] border-[1px] border-[#E8CF36] mt-10 text-[#E8CF36] hover:bg-[#E8CF36] hover:text-[black]'>Find Out More</button>

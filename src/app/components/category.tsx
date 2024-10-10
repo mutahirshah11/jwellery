@@ -36,7 +36,7 @@ const Category = () => {
         <div className='flex justify-center  '>
             <div className='my-5 flex flex-col items-center mt-10'>
             <p className='text-[#E8CF36] text-[25px] xl:text-[30px] font-bold  '>Shop By Category</p>
-            <p className='text-[#bbbbbb] text-[12px] xl:text-[14px]'>Browse through your favourite categories. We've got them all!</p>
+            <p className='text-[#bbbbbb] text-[12px] xl:text-[14px]'>Browse through your favourite categories. We have  them all!</p>
             </div>
 
         </div>

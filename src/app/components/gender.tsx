@@ -30,7 +30,7 @@ const Gender = () => {
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-10  '>
                {categories.map((items , index)=>(
                 
-                  <div className=' w-[230px] h-[200px] md:w-[280px] md:h-[230px]  xl:w-[340px] xl:h-[275px] border-[1px] border-[#969595] rounded-md bg-[#131313] hover:animate-popOut'>
+                  <div key={index} className=' w-[230px] h-[200px] md:w-[280px] md:h-[230px]  xl:w-[340px] xl:h-[275px] border-[1px] border-[#969595] rounded-md bg-[#131313] hover:animate-popOut'>
                     <div><Image src={items.picture} alt='Person Picture' className='rounded-md'/></div>
                     <div  >
                       <div className='text-white flex justify-between mt-2 '>
