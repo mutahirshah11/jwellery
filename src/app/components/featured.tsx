@@ -21,7 +21,7 @@ const Featuredproduct = () => {
             {Jwellery.map( (items,index)=>(
                 <div key={index} className='flex justify-center items-center '>
                     {/* cards */}
-                    <div className='bg-[#C0C0C0] bg-opacity-15 w-[280px] h-[140px] lg:w-[315px] lg:h-[170px] xl:w-[375px]  xl:h-[200px]  mt-5 inline-flex justify-center items-center gap-5 rounded-lg hover:bg-opacity-25 animate-flipY'>
+                    <div className='bg-[#C0C0C0] bg-opacity-15 w-[280px] h-[140px] lg:w-[315px] lg:h-[170px] xl:w-[375px]  xl:h-[200px]  mt-5 inline-flex justify-center items-center gap-5 rounded-lg hover:bg-opacity-25 animate-flipX'>
                     <Image src={items.pic} alt='jwellery' className='size-20 lg:size-24 lg:ml-3 lg:mt-0  xl:size-[130px] xl:ml-4 xl:mt-0  ' />
                       {/* text inside the cards */}
                     <div className='w-[130px] h-[112px] lg:w-[250px] mt-14 lg:mt-6 lg:mr-3 xl:w-[300px] xl:mt-[-1px] '>
