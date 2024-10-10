@@ -12,10 +12,10 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 
 const jwels = [ 
-  {pics: pic1 , name:"Silver Whisper Chain " , price : 'Rs.82300'},
-  {pics: pic2 , name:"Dazzling Chic Tops" , price : 'Rs.34500'},
-  {pics: pic3 , name:"Eternal Sparkle Ring" , price : 'Rs.23000 '},
-  {pics: pic4 , name:"Celestial Beauty Necklace" , price : 'Rs.14800'},
+  {pics: pic1 ,  name:"Silver Whisper Chain " , price : 'Rs.82300'},
+  {pics: pic2 ,  name:"Dazzling Chic Tops" , price : 'Rs.34500'},
+  {pics: pic3 ,  name:"Eternal Sparkle Ring" , price : 'Rs.23000 '},
+  {pics: pic4 ,  name:"Celestial Beauty Necklace" , price : 'Rs.14800'},
 
 ]
 
