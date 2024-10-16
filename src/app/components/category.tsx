@@ -23,8 +23,6 @@ const Categories = [
     {picture : Cat8 ,name: "Diamond Necklace", more: "Explore >"},
     {picture : Cat9 ,name: "Gold Coins", more: "Explore >"},
     {picture : Cat10 ,name: "New Earring", more: "Explore >"},
-   
-    
 ]
 
 
